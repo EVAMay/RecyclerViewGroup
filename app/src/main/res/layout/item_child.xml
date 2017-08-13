@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="120dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/item_oilType_child"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="95#"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/item_oilNum_child"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15吨"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/item_oilDepot_child"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="oilDepot"/>
+    <TextView
+        android:id="@+id/item_cheak_child"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="签收"
+        android:textSize="20sp"
+        android:gravity="center"/>
+</LinearLayout>
